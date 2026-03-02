@@ -1,0 +1,24 @@
+{
+  "version": "0.6.0",
+  "description": "Turf compiler",
+  "homepage": "https://github.com/turf-lang/turf-lang",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/turf-lang/turf-lang/releases/download/v0.6.0/turf-v0.6.0-windows-x86_64.zip",
+      "hash": "0e1c716977d7604884114114ee93e06eec017dcf4650f4db24b21b336911a8b8"
+    }
+  },
+  "bin": ["turf.exe"],
+  "checkver": {
+    "github": "https://github.com/turf-lang/turf-lang"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/turf-lang/turf-lang/releases/download/v$version/turf-v$version-windows-x86_64.zip"
+      }
+    }
+  }
+}
+
